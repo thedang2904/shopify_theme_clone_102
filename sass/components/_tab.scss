@@ -1,0 +1,48 @@
+.tab {
+  &__news {
+    margin-bottom: 4rem;
+  }
+  &__item {
+    position: relative;
+    &:not(:last-child) {
+      margin-right: 5rem;
+    }
+    a {
+
+      color: $color-primary-dark;
+      font-size: 1.5rem;
+      font-weight: 400;
+      &:hover {
+        text-decoration: none;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+
+        z-index: 100;
+        left: 0;
+        right: 100%;
+        bottom: -3px;
+        background: $color-blue-1;
+        height: 3px;
+        -webkit-transition-property: right;
+        transition-property: right;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+      }
+
+      &:hover {
+        &::before {
+          right: 0;
+        }
+      }
+      &.active{
+        &::before{
+          right: 0;
+        }
+      }
+    }
+  }
+}

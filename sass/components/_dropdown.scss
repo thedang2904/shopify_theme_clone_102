@@ -1,0 +1,10 @@
+.dropdown{
+    &-menu{
+        z-index: 30;      
+    }
+    &-toggle{
+        &::after{
+            display: none;
+        }
+    }
+}

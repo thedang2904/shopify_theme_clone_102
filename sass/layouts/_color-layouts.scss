@@ -1,0 +1,10 @@
+.color__layouts {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  &-blur--dark {
+    background-color: rgba($color-primary-dark, 0.15);
+  }
+}

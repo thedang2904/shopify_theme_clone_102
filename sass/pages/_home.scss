@@ -1,0 +1,97 @@
+.section__product {
+  width: 100%;
+  height: auto;
+  a {
+    color: $color-primary-dark;
+    &:hover {
+      color: $color-primary-dark;
+      text-decoration: none;
+    }
+  }
+}
+
+.section__promo {
+  position: relative;
+  height: auto;
+  width: 100%;
+  background-color: $color-grey-2;
+}
+.section__commitment {
+  position: relative;
+  height: 40rem;
+  width: 100%;
+  //padding: 3rem 3rem;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section__location {
+  position: relative;
+  height: auto;
+  width: 100%;
+  background-color: $color-grey-2;
+  h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 200;
+  }
+  p {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 200;
+  }
+}
+
+.section__subcribe {
+  p {
+    font-size: 1.4rem;
+    font-weight: 200;
+  }
+  height: 25rem;
+  width: 100%;
+}
+.section__news {
+  width: 100%;
+  height: auto;
+}
+.section__look {
+  background-color: $color-grey-3;
+  height: auto;
+  width: 100%;
+  i {
+    margin: 1rem 1rem;
+    font-size: 3rem;
+    transition: all .2s;
+    filter: drop-shadow(1px 1px 3px rgba($color-primary-dark,.4));  
+    &:hover{
+      filter: drop-shadow(1px 1px 3px rgba($color-primary-dark,6));       
+    }  
+  }
+}
+.section__insta {
+  width: 100%;
+  height: auto;
+  img {
+    transition: all 0.2s;
+    &:hover {
+      filter: brightness(1.2);
+    }
+  }
+}
+.section__collections {
+  height: auto;
+  position: relative;
+  background-color: $color-secondary-light;
+}
+.section__contact {
+  padding: 2rem 25vw;
+  @include respond(tab-port) {
+    padding: 0.75rem 0.25rem;
+  }
+}
+.section__detail {
+  padding: 4rem 2rem;
+  @include respond(tab-port) {
+    margin-top: 5rem;
+  }
+}

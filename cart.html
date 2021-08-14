@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Competible" content="ie=edge"> 
+    <link href="css/googlefont.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">    
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="searchBar" id="searchBar" style=" transform: scale(0);
+        height: 0;">
+        <input type="text" class="search__field w-100" placeholder="Search our store">
+    </div>
+    <!-- Mobile Navigaiton bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mobile-md-element align-items-center position-sticky">
+        <div class="container-fluid">
+            <div class="container-fluid"></div>
+            <div class="nav__icon nav__icon-dark w-30">
+                <a href="#" onclick="showFunction()">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+
+            <div class="navbar-brand w-30 d-flex justify-content-center mar-0-0">
+                <a href="/index.html">
+                    <img src="img/img__logo-dark.webp" alt="" class="nav__logo">
+                </a>
+            </div>
+
+            <div class="nav__icon nav__icon-dark w-30 d-flex justify-content-end">
+                <a href="/cart.html">
+                    <i class="fa fa-shopping-cart"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class=" nav__burger fa fa-bars"></i>
+                    <i class="nav__close fa fa-times"></i>
+                </button>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/collections.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/news.html">News</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="dropdown-divider"></div>
+                <div class="nav__icon nav__icon-dark d-flex justify-content-start">
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Mobile Navigation bar -->
+    <div class="hidden-md-element">
+        <div class="navbar d-flex justify-content-between">
+            <div class="nav__icon nav__icon-dark w-30">
+                <a href="#">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            <div class="navbar-brand w-30 d-flex justify-content-center">
+                <a href="/index.html">
+                    <img src="img/img__logo-dark.webp" alt="" class="nav__logo">
+                </a>
+            </div>
+            <div class="nav__icon nav__icon-dark w-30 d-flex justify-content-end">
+                <a href="#" onclick="showFunction()">
+                    <i class="fa fa-search"></i>
+                </a>
+                <a href="/cart.html">
+                    <i class="fa fa-shopping-cart"></i>
+                </a>
+            </div>
+        </div>
+        <div class="navbar d-flex justify-content-center bg-dark">
+            <ul class="d-flex flex-row list-unstyled mar-0-0">
+                <li class="nav__item"><a href="/index.html">Home</a></li>
+                <li class="nav__item"><a href="/collections.html">Shop</a></li>
+                <li class="nav__item"><a href="/news.html">News</a></li>
+                <li class="nav__item"><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section__cart">
+        <div class="heading__primary text-left">
+            <h2>Shopping Cart</h2>
+        </div>
+        <div class="row w-100">
+            <div class="col-md-8 pad-0-0">
+                <div class="row hidden-md-element">
+                    <div class="col-3"></div>
+                    <div class="col-3 d-flex justify-content-start">
+                        <p>Product</p>
+                    </div>
+                    <div class="col-3 d-flex justify-content-center">
+                        <p>Price</p>
+                    </div>
+                    <div class="col-3 d-flex justify-content-end">
+                        <p>Quantity</p>
+                    </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-3 d-flex justify-content-center">
+                        <img src="img/img__product-1-front.webp" alt="" class="img-cart">
+                    </div>
+                    <div class="col-3 d-flex justify-content-start">
+                        <div class="product__infor">
+                            <p>Curve SwearShirt</p>
+                            <p class="mobile-md-element">$120.00</p>
+                            <p class="colr-grey hidden-md-element">XXL/Navy</p>
+                            <a href="#" class="hidden-md-element">Remove</a>
+                        </div>
+                    </div>
+                    <div class="col-3 d-flex justify-content-center">
+                        <p class=" hidden-md-element">$120.00</p>
+                    </div>
+                    <div class="col-3 d-flex justify-content-end">
+                        <div class="quantity buttons_added d-flex flex-row pad-2">
+                            <input type="button" value="-" class="minus quantity__button"><span
+                                class="bmd-form-group is-filled"><input type="text" step="1" min="1" max=""
+                                    name="quantity" value="1" title="Qty" class="input-text qty text h-100" size="4"
+                                    pattern="" inputmode=""></span><input type="button" value="+"
+                                class="plus quantity__button">
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown-divider"></div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center flex-column mar-left-3">
+                <h2>Subtotal: $120.00</h2>
+                <a href="#" class="btn btn__blue w-100 f-1-5">Check Out</a>
+                <p>Before taxes and shipping costs</p>
+
+            </div>
+        </div>
+
+        <a href="/collections.html">Continue Shopping</a>
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-fluidd">
+            <div class="d-flex justify-content-between row-to-col">
+                <a href="#">
+                    <img src="//cdn.shopify.com/s/files/1/0082/5494/7392/files/logo-BOLD--white_130x@2x.png?v=1556139303"
+                        alt="" class="nav__logo w-auto">
+                </a>
+                <div class="nav__icon nav__icon-light nav__icon-footer">
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                        <div class="ripple-container"></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="d-flex mar-2-2">
+
+                <div class="row w-100">
+                    <a href="#">
+                        <i class="fa fa-copyright"></i> Broadcast Mordern 2019
+                    </a>
+                    <a href="#">Power by Shopify</a>
+
+                    <a href="#">Invisibles Theme</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+        crossorigin="anonymous"></script>
+    <script src="js/all.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/jquery.paroller.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

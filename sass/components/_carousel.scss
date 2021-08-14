@@ -1,0 +1,46 @@
+.carousel {
+  &-item{    
+    border: none;
+    a{
+      font-size: 1.5rem;      
+      color: $color-grey-1;   
+      //text-transform: uppercase;
+      &:hover{
+        text-decoration: none;
+        color: $color-blue-1;
+      }   
+    }
+  }
+  &__control-icon {
+    color: $color-primary-dark;
+    font-size: 4rem;
+  }
+  &-control {
+    height: 15%;
+    width: 10%;
+    top: 50%;
+    transform: translate(0, -100%);
+    background-color: $color-primary-light;
+    transition: all 0.5s;
+  }
+  &-indicators {
+    justify-content: start;
+    margin: 1rem 0;
+    position: relative;
+    &-dark {
+      li {
+        background-size: cover;
+        width: 7rem;
+        height: 7rem;
+        &.active {
+          background-color: $color-grey-1;
+        }
+      }
+    }
+  }
+}
+.cursor-zoom{
+  &:hover{
+    cursor: zoom-in;
+  }
+}

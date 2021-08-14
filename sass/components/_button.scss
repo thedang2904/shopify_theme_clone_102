@@ -1,0 +1,57 @@
+.btn {
+  padding:1.5rem 1.75rem;
+  //display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+  font-weight: 100;
+  width: fit-content;
+  &:active {
+    outline: none;
+  }
+  &__submit {
+    padding: 0.25rem 1rem;
+    border: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: $color-primary-light;
+    background-color: $color-primary-dark;
+  }
+  &__blue{ 
+    letter-spacing: normal; 
+    background-color: $color-blue-1;
+    color: $color-primary-light !important;
+    &:hover{
+      background-color: rgba($color-blue-1, .8)!important;
+    }
+  }
+  &__light {
+    color: $color-primary-light;
+    border: 1.5px solid $color-primary-light;
+    &:hover {
+      background-color: $color-primary-light;
+    }
+    &-blue {
+      letter-spacing: normal; 
+      border: 1px solid $color-blue-1;
+      color: $color-blue-1 !important;
+      &:hover {
+        background-color: $color-blue-1;
+        color: $color-primary-light !important;
+      }
+    }
+  }
+  &__dark {
+    color: $color-primary-dark;
+    border: 1.5px solid $color-primary-dark;
+    &:hover {
+      color: $color-primary-light;
+      background-color: $color-primary-dark;
+    }
+  }
+}

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Competible" content="ie=edge"> 
+    <link href="css/googlefont.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">    
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="searchBar" id="searchBar" style=" transform: scale(0);
+  height: 0;">
+        <input type="text" class="search__field w-100" placeholder="Search our store">
+    </div>
+    <!-- Mobile Navigaiton bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mobile-md-element align-items-center">
+        <div class="container-fluid">
+            <div class="container-fluid"></div>
+            <div class="nav__icon nav__icon-dark w-30">
+                <a href="#" onclick="showFunction()">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+
+            <div class="navbar-brand w-30 d-flex justify-content-center mar-0-0">
+                <a href="/index.html">
+                    <img src="img/img__logo-dark.webp" alt="" class="nav__logo">
+                </a>
+            </div>
+
+            <div class="nav__icon nav__icon-dark w-30 d-flex justify-content-end">
+                <a href="/cart.html">
+                    <i class="fa fa-shopping-cart"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class=" nav__burger fa fa-bars"></i>
+                    <i class="nav__close fa fa-times"></i>
+                </button>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/collections.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/news.html">News</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="dropdown-divider"></div>
+                <div class="nav__icon nav__icon-dark d-flex justify-content-start">
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- /Mobile Navigation bar -->
+
+    <div class="hidden-md-element">
+        <div class="navbar d-flex justify-content-between">
+            <div class="nav__icon nav__icon-dark w-30">
+                <a href="#">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            <div class="navbar-brand w-30 d-flex justify-content-center">
+                <a href="/index.html">
+                    <img src="img/img__logo-dark.webp" alt="" class="nav__logo">
+                </a>
+            </div>
+            <div class="nav__icon nav__icon-dark w-30 d-flex justify-content-end">
+                <a href="#" onclick="showFunction()">
+                    <i class="fa fa-search"></i>
+                </a>
+                <a href="/cart.html">
+                    <i class="fa fa-shopping-cart"></i>
+                </a>
+            </div>
+        </div>
+        <div class="navbar d-flex justify-content-center bg-dark">
+            <ul class="d-flex flex-row list-unstyled mar-0-0">
+                <li class="nav__item"><a href="/index.html">Home</a></li>
+                <li class="nav__item"><a href="/collections.html">Shop</a></li>
+                <li class="nav__item"><a href="/news.html">News</a></li>
+                <li class="nav__item"><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="category__selector mobile-md-element">
+        <div id="carouselExampleControls" class="carousel slide h-100" data-ride="carousel">
+            <div class="carousel-inner h-100 d-flex align-items-center">
+                <div class="carousel-item text-center active">
+                    <a href="#">Design</a>
+                </div>
+                <div class="carousel-item text-center">
+                    <a href="#">Our Process</a>
+                </div>
+                <div class="carousel-item text-center">
+                    <a href="#">Travel</a>
+                </div>
+                <div class="carousel-item text-center">
+                    <a href="#">Sustainability</a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <i class="fa fa-angle-left carousel__control-icon"></i>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <i class="fa fa-angle-right carousel__control-icon"></i>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="heading__img" style="background-image: url('img/img__falling-person.webp')">
+    </div>
+
+    <section class="section__blog-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 position-relative articles__social-content hidden-md-element">
+                    <div class="nav__icon nav__icon-dark d-flex flex-column position-sticky" style="top: 0">
+                        <a href="#" class=" nav__icon-fb justify-content-end d-flex align-items-center">
+                            <i class="fab fa-facebook-square"></i>
+                            <p>SHARE</p>
+                            <div class="ripple-container"></div>
+                        </a>
+                        <a href="#" class="nav__icon-twitter justify-content-end d-flex align-items-center">
+                            <i class="fab fa-twitter"></i>
+                            <p>TWEET</p>
+                        </a>
+                        <a href="#" class="nav__icon-pin justify-content-end d-flex align-items-center">
+                            <i class="fab fa-pinterest"></i>
+                            <p>PIN IT</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="articles__title">
+                        Building a brand with our values
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="text__time mar-top-2">
+                        <time datetime="January 18, 2019">January 18, 2019 &nbsp;</time>
+                        by harrison grey
+                    </div>
+                    <div class="dropdown-divider mar-top-2"></div>
+                    <div class="articles__content-main">
+                        <p>In this world we often make mistakes of judgment. We do not as a rule get out of them sound
+                            and whole, but sometimes we do.</p>
+
+                        <blockquote>
+                            <p>One Scotchman was claiming that the peasantry of Scotland pronounced it three, his
+                                adversaries claimed that they didn't—that they pronounced it 'thraw'.</p>
+                        </blockquote>
+                        <p>At dinner yesterday evening-present, a mixture of Scotch, English, American, Canadian, and
+                            Australasian folk—a discussion broke out about the pronunciation of certain Scottish words.
+                            This was private ground, and the non-Scotch nationalities, with one exception, discreetly
+                            kept still.</p>
+                        <img src="/img/img__promo-1.webp" alt="" class="img-cover">
+                        <p>But I am not discreet, and I took a hand. I didn't know anything about the subject, but I
+                            took a hand just to have something to do. At that moment the word in dispute was the word
+                            three.</p>
+
+                        <p>One Scotchman was claiming that the peasantry of Scotland pronounced it three, his
+                            adversaries claimed that they didn't—that they pronounced it 'thraw'.</p>
+                        <p>The solitary Scot was having a sultry time of it, so I thought I would enrich him with my
+                            help. In my position I was necessarily quite impartial, and was equally as well and as ill
+                            equipped to fight on the one side as on the other.</p>
+                        <p>So I spoke up and said the peasantry pronounced the word three, not thraw. It was an error of
+                            judgment. There was a moment of astonished and ominous silence, then weather ensued. The
+                            storm rose and spread in a surprising way, and I was snowed under in a very few minutes. It
+                            was a bad defeat for me—a kind of Waterloo.</p>
+                        <p>It promised to remain so, and I wished I had had better sense than to enter upon such a
+                            forlorn enterprise. But just then I had a saving thought—at least a thought that offered a
+                            chance.</p>
+
+                        <div class="dropdown-divider"></div>
+                        <div class="articles__author-bio">
+                            <div class="articles__author-img" style="background-image: url('img/img__Gideon.webp')">
+                            </div>
+                            <div class="articles__author-text">
+                                <h3>Gideon B</h3>
+                                <p>Harrison is the founder of Invisible. After travelling the world, Harrison Grey
+                                    decided we need more variety in the clothing market and chose to start Invisible.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <h2 class="f-w-100">Leave a comment</h2>
+                    <div class="dropdown-divider"></div>
+                    <form action="" class="d-flex flex-column articles__comment">
+                        <div class="d-flex flex-row">
+                            <span class="bmd-form-group mar-right-xs w-50"><input type="text"
+                                    class="input__group-field-contact mar-top-2 w-100" placeholder="Full Name"></span>
+                            <span class="bmd-form-group w-50"><input type="text"
+                                    class="input__group-field-contact mar-top-2 w-100" placeholder="Email"></span>
+                        </div>
+
+                        <span class="bmd-form-group"><textarea name="" id="" cols="30" rows="6" placeholder="Message"
+                                class="w-100 mar-top-2 input__group-field-contact"></textarea></span>
+                        <p class="font-italic f-1 mar-top-2">Please note, comment must be approved before they are
+                            published</p>
+                        <a href="#" class="btn btn__blue font-weight-bold">Write a comment<div class="ripple-container">
+                            </div></a>
+                    </form>
+                </div>
+                <div class="col-md-3 articles__nav">
+                    <div class="container-fluid position-sticky" style="top: 2rem">
+                        <h3 class="hidden-md-element">Categories</h3>
+                        <div class="dropdown-divider hidden-md-element"></div>
+                        <ul class="articles__nav-item hidden-md-element">
+                            <li><a href="#">Design</a></li>
+                            <li><a href="#">Our Process</a></li>
+                            <li><a href="#">Suistainability</a></li>
+                            <li><a href="#">Travel</a></li>
+                        </ul>
+                        <h3>Read more</h3>
+                        <div class="dropdown-divider"></div>
+                        <a href="#">
+                            <div class="articles-sm">
+                                <div class="articles-sm--img" style="background-image: url('img/img__building.webp')">
+                                </div>
+                                <div class="articles-sm--text">
+                                    <p>Findding Joys in the process, not the outcome</p>
+                                    <p class="articles__author-sm">Harrison Grey</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="articles-sm">
+                                <div class="articles-sm--img"
+                                    style="background-image: url('img/img__falling-person.webp')">
+                                </div>
+                                <div class="articles-sm--text">
+                                    <p>Building a brand with our values</p>
+                                    <p class="articles__author-sm">Harrison Grey</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="articles-sm">
+                                <div class="articles-sm--img" style="background-image: url('img/img__moutain.webp')">
+                                </div>
+                                <div class="articles-sm--text">
+                                    <p>Reaching accross the Northern sky</p>
+                                    <p class="articles__author-sm">Harrison Grey</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-fluidd">
+            <div class="d-flex justify-content-between row-to-col">
+                <a href="#">
+                    <img src="//cdn.shopify.com/s/files/1/0082/5494/7392/files/logo-BOLD--white_130x@2x.png?v=1556139303"
+                        alt="" class="nav__logo w-auto">
+                </a>
+                <div class="nav__icon nav__icon-light nav__icon-footer">
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                        <div class="ripple-container"></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="d-flex mar-2-2">
+
+                <div class="row w-100">
+                    <a href="#">
+                        <i class="fa fa-copyright"></i> Broadcast Mordern 2019
+                    </a>
+                    <a href="#">Power by Shopify</a>
+
+                    <a href="#">Invisibles Theme</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+        crossorigin="anonymous"></script>      
+    <script src="js/all.js"></script> 
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/jquery.paroller.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

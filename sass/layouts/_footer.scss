@@ -1,0 +1,23 @@
+.footer { 
+  background-color: $color-secondary-dark;
+  padding: 4rem 3rem;
+  height: auto;
+  text-transform: uppercase;
+  a {
+      margin-top: 1rem;
+    &:not(:last-child) {
+      margin-right: 4rem;
+    }
+    @include respond(phone){
+      margin: 1rem 0;
+    }
+    color: $color-grey-2;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+    &:hover {
+      text-decoration: none;
+      color: $color-grey-1;
+    }
+  }
+}

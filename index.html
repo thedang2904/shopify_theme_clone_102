@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Competible" content="ie=edge"> 
+    <link href="css/googlefont.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">    
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="searchBar" id="searchBar" style=" transform: scale(0);
+        height: 0;">
+        <input type="text" class="search__field w-100" placeholder="Search our store">
+    </div>
+    <!-- Mobile Navigaiton bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mobile-md-element align-items-center">
+        <div class="nav__icon nav__icon-dark w-30">
+            <a href="#" onclick="showFunction()">
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+
+        <div class="navbar-brand w-30 d-flex justify-content-center mar-0-0">
+            <a href="/index.html">
+                <img src="img/img__logo-dark.webp" alt="" class="nav__logo">
+            </a>
+        </div>
+
+        <div class="nav__icon nav__icon-dark w-30 d-flex justify-content-end">
+            <a href="/cart.html">
+                <i class="fa fa-shopping-cart"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class=" nav__burger fa fa-bars"></i>
+                <i class="nav__close fa fa-times"></i>
+            </button>
+
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/collections.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/news.html">News</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="dropdown-divider"></div>
+            <div class="nav__icon nav__icon-dark d-flex justify-content-start">
+                <a href="#">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Mobile Navigation bar -->
+
+    <!-- Header -->
+    <header class="header jumbotron" style="background: url('img/img_background-paralax.jpg') no-repeat bottom;"
+        data-paroller-factor=".5" data-paroller-factor-xs="0.2">
+        <div class=" color__layouts color__layouts-blur--dark">
+            <div class="hidden-md-element">
+                <div class="navbar d-flex justify-content-between">
+                    <div class="nav__icon nav__icon-light w-30">
+                        <a href="#">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    <div class="navbar-brand w-30 d-flex justify-content-center">
+                        <a href="/index.html">
+                            <img src="img/img__logo-light.webp"
+                                alt="" class="nav__logo">
+                        </a>
+                    </div>
+                    <div class="nav__icon nav__icon-light w-30 d-flex justify-content-end">
+                        <a href="#" onclick="showFunction()">
+                            <i class="fa fa-search"></i>
+                        </a>
+                        <a href="/cart.html">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar d-flex justify-content-center">
+                    <ul class="d-flex flex-row list-unstyled">
+                        <li class="nav__item"><a href="/index.html">Home</a></li>
+                        <li class="nav__item"><a href="/collections.html">Shop</a></li>
+                        <li class="nav__item"><a href="/news.html">News</a></li>
+                        <li class="nav__item"><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="d-flex justify-content-flex-start header__caption flex-column ab-center-text-left">
+                <h2>Smart clothing</h2>
+                <p>Never Overdressed. never Underdressed.</p>
+                <a href="/collections.html" class="btn btn__light mar-top-3">Shop all</a>
+            </div>
+        </div>
+    </header>
+    <!-- /Header -->
+
+    <!--Section Promo-->
+    <section class="section__promo">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="img__with-text wow fadeInUp">
+                        <h2>Less is more</h2>
+                        <p>Broadcast is a unique approach to modern apparel. We only sell what you need and nothing
+                            more.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/img__promo-1.webp" alt="" class="img__promo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__promo">
+        <div class="container-fluid">
+            <div class="row d-flex flex-row-reverse">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="img__with-text wow fadeInUp">
+                        <h2>Comfortable and Smart</h2>
+                        <p>Our clothing is not only comfortable, you can dress it up or down and you'll be set for any
+                            occasion.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/img__promo-2.webp" alt="" class="img__promo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/Section Promo-->
+
+    <!--Section Product-->
+    <section class="section__product">
+        <!-- Product list in desktop -->
+        <div class="container-fluid hidden-md-element">
+            <div class="row">
+                <div class="col-md-4 pad-0-0">
+                    <a href="/detail.html">
+                        <div class="card card__product">
+                            <div class="card__product-content">
+                                <img class="card-img-top card__product-img card__product-img--front"
+                                    src="img/img__product-1-front.webp" alt="Card image cap">
+                                <img class="card-img-top card__product-img card__product-img--back"
+                                    src="img/img__product-1-back.webp" alt="Card image cap">
+                                <a href="#" data-toggle="modal" data-target="#modalQuickview">
+                                    <div class="card__product-quickview">
+                                        Quick view
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="card-body d-flex flex-column">
+                                <div id="rating" class="rating__section justify-content-center mar-0-0">
+                                    <div class="star__rating" id="rating" data-value-star="3">
+                                        <input type="radio" name="rating" value="5">
+                                        <label class="full" title="Awesome - 5 stars"></label>
+
+                                        <input type="radio" name="rating" value="4">
+                                        <label class="full" title="Pretty good - 4 stars"></label>
+
+                                        <input type="radio" name="rating" value="3">
+                                        <label class="full" title="Meh - 3 stars"></label>
+
+                                        <input type="radio" name="rating" value="2">
+                                        <label class="full" title="Kinda bad - 2 stars"></label>
+
+                                        <input type="radio" name="rating" value="1">
+                                        <label class="full" title="Sucks big time - 1 star"></label>
+                                    </div>
+                                </div>
+                                <p class="card-text">Lightweight Hood</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <p class="card-text card-text-sale">$200.00</p>
+                                    <p class="card-text card-text-price">$199.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 pad-0-0">
+                    <a href="/detail.html">
+                        <div class="card card__product">
+                            <div class="card__product-content">
+                                <img class="card-img-top card__product-img card__product-img--front"
+                                    src="img/img__product-2-front.webp" alt="Card image cap">
+                                <img class="card-img-top card__product-img card__product-img--back"
+                                    src="img/img__product-2-back.webp" alt="Card image cap">
+                                <a href="#" data-toggle="modal" data-target="#modalQuickview">
+                                    <div class="card__product-quickview">
+                                        Quick view
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card-body d-flex flex-column">
+                                <div id="rating" class="rating__section justify-content-center mar-0-0">
+                                    <div class="star__rating" id="rating" data-value-star="4">
+                                        <input type="radio" name="rating" value="5">
+                                        <label class="full" title="Awesome - 5 stars"></label>
+
+                                        <input type="radio" name="rating" value="4">
+                                        <label class="full" title="Pretty good - 4 stars"></label>
+
+                                        <input type="radio" name="rating" value="3">
+                                        <label class="full" title="Meh - 3 stars"></label>
+
+                                        <input type="radio" name="rating" value="2">
+                                        <label class="full" title="Kinda bad - 2 stars"></label>
+
+                                        <input type="radio" name="rating" value="1">
+                                        <label class="full" title="Sucks big time - 1 star"></label>
+                                    </div>
+                                </div>
+                                <p class="card-text">The Hood Jacket</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <p class="card-text card-text-sold-out">Sold Out</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-md-4 pad-0-0">
+                    <a href="/detail.html">
+                        <div class="card card__product">
+                            <div class="card__product-content">
+                                <img class="card-img-top card__product-img card__product-img--front"
+                                    src="img/img__product-3-front.webp" alt="Card image cap">
+                                <img class="card-img-top card__product-img card__product-img--back"
+                                    src="img/img__product-3-back.webp" alt="Card image cap">
+                                <a href="#" data-toggle="modal" data-target="#modalQuickview">
+                                    <div class="card__product-quickview">
+                                        Quick view
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card-body d-flex flex-column">
+                                <div id="rating" class="rating__section justify-content-center mar-0-0">
+                                    <div class="star__rating" id="rating" data-value-star="5">
+                                        <input type="radio" name="rating" value="5">
+                                        <label class="full" title="Awesome - 5 stars"></label>
+
+                                        <input type="radio" name="rating" value="4">
+                                        <label class="full" title="Pretty good - 4 stars"></label>
+
+                                        <input type="radio" name="rating" value="3">
+                                        <label class="full" title="Meh - 3 stars"></label>
+
+                                        <input type="radio" name="rating" value="2">
+                                        <label class="full" title="Kinda bad - 2 stars"></label>
+
+                                        <input type="radio" name="rating" value="1">
+                                        <label class="full" title="Sucks big time - 1 star"></label>
+                                    </div>
+                                </div>
+                                <p class="card-text">The Classic Hood</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <p class="card-text card-text-price">$220.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 pad-0-0">
+                    <a href="/detail.html">
+                        <div class="card card__product">
+                            <div class="card__product-content">
+                                <img class="card-img-top card__product-img card__product-img--front"
+                                    src="img/img__product-4-front.webp" alt="Card image cap">
+                                <img class="card-img-top card__product-img card__product-img--back"
+                                    src="img/img__product-4-back.webp" alt="Card image cap">
+                                <a href="#" data-toggle="modal" data-target="#modalQuickview">
+                                    <div class="card__product-quickview">
+                                        Quick view
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card-body d-flex flex-column">
+                                <p class="card-text">The Bomber</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <p class="card-text card-text-price">$299.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 pad-0-0">
+                    <a href="/detail.html">
+                        <div class="card card__product">
+                            <div class="card__product-content">
+                                <img class="card-img-top card__product-img card__product-img--front"
+                                    src="img/img__product-5-front.webp" alt="Card image cap">
+                                <img class="card-img-top card__product-img card__product-img--back"
+                                    src="img/img__product-5-back.webp" alt="Card image cap">
+                                <a href="#" data-toggle="modal" data-target="#modalQuickview">
+                                    <div class="card__product-quickview">
+                                        Quick view
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card-body d-flex flex-column">
+                                <div id="rating" class="rating__section justify-content-center mar-0-0">
+                                    <div class="star__rating" id="rating" data-value-star="4">
+                                        <input type="radio" name="rating" value="5">
+                                        <label class="full" title="Awesome - 5 stars"></label>
+
+                                        <input type="radio" name="rating" value="4">
+                                        <label class="full" title="Pretty good - 4 stars"></label>
+
+                                        <input type="radio" name="rating" value="3">
+                                        <label class="full" title="Meh - 3 stars"></label>
+
+                                        <input type="radio" name="rating" value="2">
+                                        <label class="full" title="Kinda bad - 2 stars"></label>
+
+                                        <input type="radio" name="rating" value="1">
+                                        <label class="full" title="Sucks big time - 1 star"></label>
+                                    </div>
+                                </div>
+                                <p class="card-text">The Cross Collar Swearshirt</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <p class="card-text card-text-price">$109.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 pad-0-0">
+                    <a href="/detail.html">
+                        <div class="card card__product">
+                            <div class="card__product-content">
+                                <img class="card-img-top card__product-img card__product-img--front"
+                                    src="img/img__product-6-front.webp" alt="Card image cap">
+                                <img class="card-img-top card__product-img card__product-img--back"
+                                    src="img/img__product-6-back.webp" alt="Card image cap">
+                                <a href="#" data-toggle="modal" data-target="#modalQuickview">
+                                    <div class="card__product-quickview">
+                                        Quick view
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="card-body d-flex flex-column">
+                                <p class="card-text">Curve Swearshirt</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <p class="card-text card-text-price">$119.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- /Product list in desktop -->
+
+        <!-- Product slide in Mobile -->
+        <div id="carouselExampleControls" class="carousel slide mobile-md-element" data-ride="carousel">
+            <div class="carousel-inner">
+                <!--First Slide-->
+                <div class="carousel-item active">
+                    <a href="/detail.html">
+                        <div class="card card__product">
+                            <div class="card__product-content">
+                                <img class="card-img-top card__product-img card__product-img--front"
+                                    src="img/img__product-1-front.webp" alt="Card image cap">
+                                <img class="card-img-top card__product-img card__product-img--back"
+                                    src="img/img__product-1-back.webp" alt="Card image cap">
+                            </div>
+
+                            <div class="card-body d-flex flex-column">
+                                <div id="rating" class="rating__section justify-content-center mar-0-0">
+                                    <div class="star__rating" id="rating" data-value-star="3">
+                                        <input type="radio" name="rating" value="5">
+                                        <label class="full" title="Awesome - 5 stars"></label>
+
+                                        <input type="radio" name="rating" value="4">
+                                        <label class="full" title="Pretty good - 4 stars"></label>
+
+                                        <input type="radio" name="rating" value="3">
+                                        <label class="full" title="Meh - 3 stars"></label>
+
+                                        <input type="radio" name="rating" value="2">
+                                        <label class="full" title="Kinda bad - 2 stars"></label>
+
+                                        <input type="radio" name="rating" value="1">
+                                        <label class="full" title="Sucks big time - 1 star"></label>
+                                    </div>
+                                </div>
+                                <p class="card-text">Lightweight Hood</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <p class="card-text card-text-sale">$200.00</p>
+                                    <p class="card-text card-text-price">$199.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--/First Slide-->
+
+                <!--Second Slide-->
+                <div class="carousel-item">
+                    <a href="/detail.html">
+                        <div class="card card__product">
+                            <div class="card__product-content">
+                                <img class="card-img-top card__product-img card__product-img--front"
+                                    src="img/img__product-1-front.webp" alt="Card image cap">
+                                <img class="card-img-top card__product-img card__product-img--back"
+                                    src="img/img__product-1-back.webp" alt="Card image cap">
+
+                            </div>
+
+                            <div class="card-body d-flex flex-column">
+                                <div id="rating" class="rating__section justify-content-center mar-0-0">
+                                    <div class="star__rating" id="rating" data-value-star="3">
+                                        <input type="radio" name="rating" value="5">
+                                        <label class="full" title="Awesome - 5 stars"></label>
+
+                                        <input type="radio" name="rating" value="4">
+                                        <label class="full" title="Pretty good - 4 stars"></label>
+
+                                        <input type="radio" name="rating" value="3">
+                                        <label class="full" title="Meh - 3 stars"></label>
+
+                                        <input type="radio" name="rating" value="2">
+                                        <label class="full" title="Kinda bad - 2 stars"></label>
+
+                                        <input type="radio" name="rating" value="1">
+                                        <label class="full" title="Sucks big time - 1 star"></label>
+                                    </div>
+                                </div>
+                                <p class="card-text">Lightweight Hood</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <p class="card-text card-text-sale">$200.00</p>
+                                    <p class="card-text card-text-price">$199.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--/Second Slide-->
+
+                <!--Third Slide-->
+                <div class="carousel-item">
+                    <a href="/detail.html">
+                        <div class="card card__product">
+                            <div class="card__product-content">
+                                <img class="card-img-top card__product-img card__product-img--front"
+                                    src="img/img__product-1-front.webp" alt="Card image cap">
+                                <img class="card-img-top card__product-img card__product-img--back"
+                                    src="img/img__product-1-back.webp" alt="Card image cap">
+                            </div>
+
+                            <div class="card-body d-flex flex-column">
+                                <div id="rating" class="rating__section justify-content-center mar-0-0">
+                                    <div class="star__rating" id="rating" data-value-star="3">
+                                        <input type="radio" name="rating" value="5">
+                                        <label class="full" title="Awesome - 5 stars"></label>
+
+                                        <input type="radio" name="rating" value="4">
+                                        <label class="full" title="Pretty good - 4 stars"></label>
+
+                                        <input type="radio" name="rating" value="3">
+                                        <label class="full" title="Meh - 3 stars"></label>
+
+                                        <input type="radio" name="rating" value="2">
+                                        <label class="full" title="Kinda bad - 2 stars"></label>
+
+                                        <input type="radio" name="rating" value="1">
+                                        <label class="full" title="Sucks big time - 1 star"></label>
+                                    </div>
+                                </div>
+                                <p class="card-text">Lightweight Hood</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <p class="card-text card-text-sale">$200.00</p>
+                                    <p class="card-text card-text-price">$199.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--/Third Slide-->
+
+            </div>
+
+            <!--Control Prev Next-->
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <i class="fa fa-angle-left carousel__control-icon"></i>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <i class="fa fa-angle-right carousel__control-icon"></i>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/Control Prev Next-->
+        </div>
+        <!-- Product slide in Mobile -->
+    </section>
+    <!--/Section Product-->
+    <!-- Popup Modal -->
+    <div class="modal fade" id="modalQuickview" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close__badge" data-dismiss="modal" aria-label="Close">
+                    <span class="close__icon"></span>
+                </button>
+                <div class="row">
+                    <div class="col-6 mar-right-sm d-flex align-items-center">
+                        <!--Carousel-slide-->
+                        <div class="hidden__element">
+                            <!--Carousel Wrapper-->
+                            <div class="sale__badge">SALE</div>
+                            <div id="carousel-example-1z" class="carousel slide carousel-slide pointer-event "
+                                data-ride="carousel" data-interval="0">
+
+                                <!--Slides-->
+                                <div class="carousel-inner" role="listbox">
+                                    <!--First slide-->
+                                    <div class="carousel-item active cursor-zoom"
+                                        data-image="img/img__product-1-back.webp" data-toggle="zoom">
+                                        <div class="card">
+                                            <img src="img/img__product-1-back.webp"
+                                                class="card-img-top img-cover img-cover-50" alt="...">
+                                        </div>
+                                    </div>
+                                    <!--/First slide-->
+                                    <!--Second slide-->
+                                    <div class="carousel-item cursor-zoom" data-image="img/img__product-1-front.webp"
+                                        data-toggle="zoom">
+                                        <div class="card">
+                                            <img src="img/img__product-1-front.webp"
+                                                class="card-img-top img-cover img-cover-50" alt="...">
+                                        </div>
+                                    </div>
+                                    <!--/Second slide-->
+                                    <!--Third slide-->
+                                    <div class="carousel-item cursor-zoom" data-image="img/img__product-7-front.jpg"
+                                        data-toggle="zoom">
+                                        <div class="card">
+                                            <img src="img/img__product-7-front.jpg"
+                                                class="card-img-top img-cover img-cover-50" alt="...">
+                                        </div>
+                                    </div>
+                                    <!--/Third slide-->
+                                    <!--Fourth slide-->
+                                    <div class="carousel-item cursor-zoom" data-image="img/img__product-2-front.webp"
+                                        data-toggle="zoom">
+                                        <div class="card">
+                                            <img src="img/img__product-2-front.webp"
+                                                class="card-img-top img-cover img-cover-50" alt="...">
+
+                                        </div>
+                                    </div>
+                                    <!--/Fourth slide-->
+
+                                </div>
+                                <!--/.Slides-->
+                                <!--Indicators-->
+                                <ol class="carousel-indicators carousel-indicators-dark">
+                                    <li data-target="#carousel-example-1z" data-slide-to="0" class="active"
+                                        style="background-image: url('img/img__product-1-back.webp')">
+                                    </li>
+                                    <li data-target="#carousel-example-1z" data-slide-to="1"
+                                        style="background-image: url('img/img__product-1-front.webp')"></li>
+                                    <li data-target="#carousel-example-1z" data-slide-to="2"
+                                        style="background-image: url('img/img__product-7-front.jpg')"></li>
+                                    <li data-target="#carousel-example-1z" data-slide-to="3"
+                                        style="background-image: url('img/img__product-2-front.webp')"></li>
+                                </ol>
+                                <!--/.Indicators-->
+                            </div>
+                            <!--/.Carousel Wrapper-->
+                        </div>
+                        <!--/Carousel-slide-->
+                    </div>
+                    <div class="col-5 text-left pad-top-bot-md">
+                        <p class="f-3 f-w-100">The Classic Hood</p>
+
+                        <p class="f-2 product__price f-w-100">$400.00</p>
+                        <p class="f-1">Colors</p>
+                        <div class="d-flex flex-row">
+                            <a href="#" data-target="#carousel-example-1z" data-slide-to="1" data-toggle="tooltip"
+                                data-placement="bottom" title="Navy">
+                                <div class="color__select color__select-navy"></div>
+                            </a>
+                            <a href="#" data-target="#carousel-example-1z" data-slide-to="2">
+                                <div class="color__select color__select-grey"></div>
+                            </a>
+                            <a href="#" data-target="#carousel-example-1z" data-slide-to="3">
+                                <div class="color__select color__select-black"></div>
+                            </a>
+                        </div>
+
+                        <p class="f-1">Size</p>
+                        <div class="position-relative">
+                            <i class="fa fa-angle-down select__icon"></i>
+                            <select class="select__custom">
+                                <option value="1">Small</option>
+                                <option value="2">Medium</option>
+                                <option value="3">Large</option>
+                                <option value="4">XL</option>
+                                <option value="5">XXL</option>
+                            </select>
+                        </div>
+
+                        <div class="quantity buttons_added d-flex flex-row mar-top-2">
+                            <input type="button" value="-" class="minus quantity__button"><input type="text" step="1"
+                                min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text h-100"
+                                size="4" pattern="" inputmode=""><input type="button" value="+"
+                                class="plus quantity__button">
+                        </div>
+                        <div class="mar-top-3">
+                            <div class="row">
+                                <div class="col"><a href="#" class="btn btn__light-blue font-weight-bold w-100">Add to
+                                        cart</a></div>
+                                <div class="col">
+                                    <a href="#" class="btn btn__blue w-100 font-weight-bold">Buy it now</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="container-fluid pad-0-0">
+                            <p class="text__description cut-text cut-text-3-lines">L'Estrange is a line of
+                                minimalist apparel thoughtfully designed in London.
+
+                                Their mission is to replace quantity with quality. They sell only the essential
+                                items of clothing and they are as comfortable and as they are smart.
+
+                                Check out their products at L’Estrange.
+
+                            </p>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="articles__link f-w-100">View Product →</a>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Popup Modal -->
+
+
+    <!--Section Commitment-->
+    <section class="section__commitment jumbotron" style="background: url('img/img__background-2.jpg') no-repeat top;
+    background-size: cover;" data-paroller-factor="0.2" data-paroller-factor-xs="0.2">
+        <div class="color__layouts color__layouts-blur--dark">
+            <div class="container-fluid d-flex justify-content-start">
+                <div class="d-flex justify-content-start header__caption flex-column ab-center-text-left">
+                    <h2 class="wow fadeInUp">Our Commitment</h2>
+                    <p class="wow fadeInUp">Sustainable clothing that lasts a lifetime.</p>
+                    <a href="#" class="btn btn__light mar-top-3 wow fadeInUp">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Section Commitment -->
+
+    <!-- Section Location -->
+    <section class="section__location">
+        <div class="container-fluid h-100">
+            <div class="row d-flex align-items-center">
+                <div class="col-sm-4 d-flex flex-column justify-content-center pad-0-0 align-items-center">
+                    <div class="text-center mar-2-2">
+                        <h2 class="wow fadeInUp">Our Store</h2>
+                        <p class="wow fadeInUp">566 Emerson St
+                            Palo Alto, California</p>
+                        <p class="wow fadeInUp">Mon - Fri, 10am - 9pm
+                            Weekends, 11am - 4pm</p>
+                        <a href="#" class="btn btn__dark wow fadeInUp">Direction</a>
+                    </div>
+
+                </div>
+                <div class="col-sm-8 h-100 pad-0-0">
+                    <img src="img/img__store.webp" alt="" class="img-cover img-cover-30">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Section Location -->
+
+    <!-- Section Subcribe -->
+    <section class="section__subcribe">
+        <div class="d-flex justify-content-center h-100 align-items-center flex-column">
+            <div class="w-30 text-center wow fadeInUp">
+                <p>Newsletter</p>
+                <p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+            </div>
+
+            <form class="d-flex flex-row justify-content-center wow fadeInUp">
+                <input type="text" type="email" class="input__group-field">
+                <input name="" id="" type="submit" class="btn__submit" value="JOIN">
+            </form>
+        </div>
+    </section>
+    <!-- /Section Subcribe -->
+
+    <!-- Section News -->
+    <section class="section__news wow fadeInUp">
+        <div class="container-fluid hidden-md-element">
+            <div class="row">
+                <div class="col-md-3 pad-0-0 wow fadeInUp">
+                    <a href="/blog-detail.html">
+                        <div class="card card__product">
+                            <img class="card-img-top img-cover img-cover-20" src="img/img__building.webp"
+                                alt="Card image cap">
+                            <div class="card-body d-flex flex-column text-left">
+                                <a href="/blog-detail.html" class="cut-text cut-text-1-line articles__title-link">Fiding
+                                    joy in the
+                                    process
+                                    not the outcome</a>
+                                <div class="d-flex align-items-end">
+                                    <p class="card-text articles__content cut-text cut-text-2-lines wow fadeInUp">In the
+                                        distance it looked like a blue ribbon stretched across the ocean. Several
+                                        passengers
+                                        kodak'd it. We had no fool ceremonies, no fantastics, no horse play. All that
+                                        sort
+                                        of thing has gone out.</p>
+                                </div>
+                                <a href="/blog-detail.html" class="articles__link">Read more &rarr;</a>
+
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="col-md-3 pad-0-0 wow fadeInUp" data-wow-delay=".25s">
+                    <a href="/blog-detail.html">
+                        <div class="card card__product">
+                            <img class="card-img-top img-cover img-cover-20" src="img/img__falling-person.webp"
+                                alt="Card image cap">
+                            <div class="card-body d-flex flex-column text-left">
+                                <a href="/blog-detail.html"
+                                    class="cut-text cut-text-1-line articles__title-link">Building a brand with
+                                    our values</a>
+                                <div class="d-flex align-items-end">
+                                    <p class="card-text articles__content cut-text cut-text-2-lines wow fadeInUp">In this world we
+                                        often make mistakes of judgment. We do not as a rule get out of them sound and
+                                        whole, but sometimes we do.</p>
+                                </div>
+                                <a href="/blog-detail.html" class="articles__link">Read more &rarr;</a>
+
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="col-md-3 pad-0-0 wow fadeInUp" data-wow-delay=".5s">
+                    <a href="/blog-detail.html">
+                        <div class="card card__product">
+                            <img class="card-img-top img-cover img-cover-20" src="img/img__moutain.webp"
+                                alt="Card image cap">
+                            <div class="card-body d-flex flex-column text-left">
+                                <a href="/blog-detail.html"
+                                    class="cut-text cut-text-1-line articles__title-link">Designing a product
+                                    with love</a>
+                                <div class="d-flex align-items-end">
+                                    <p class="card-text articles__content cut-text cut-text-2-lines wow fadeInUp">Style is a quality;
+                                        the “historic styles” are phases of development. Style is character expressive
+                                        of definite conceptions, as of grandeur, gaiety, or solemnity.</p>
+                                </div>
+                                <a href="/blog-detail.html" class="articles__link">Read more &rarr;</a>
+
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="col-md-3 pad-0-0 wow fadeInUp" data-wow-delay=".75s">
+                    <a href="/blog-detail.html">
+                        <div class="card card__product">
+                            <img class="card-img-top img-cover img-cover-20" src="img/img__leaves.webp"
+                                alt="Card image cap">
+                            <div class="card-body d-flex flex-column text-left">
+                                <a href="/blog-detail.html"
+                                    class="cut-text cut-text-1-line articles__title-link">Reaching across the
+                                    northern sky</a>
+                                <div class="d-flex align-items-end">
+                                    <p class="card-text cut-text cut-text-2-lines articles__content wow fadeInUp">About four days out
+                                        from Victoria we plunged into hot weather, and all the male passengers put on
+                                        white linen clothes. One or two days later we crossed the 25th parallel of north
+                                        latitude, and then, by order, the officers of the ship laid away their blue
+                                        uniforms and came out in white linen ones. All the ladies were in white by this
+                                        time. This prevalence of snowy costumes gave the promenade deck an invitingly
+                                        cool, and cheerful and picnicky aspect.</p>
+                                </div>
+                                <a href="/blog-detail.html" class="articles__link">Read more &rarr;</a>
+
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="carouselNewsControl" class="carousel slide mobile-md-element" data-ride="carousel">
+            <div class="carousel-inner">
+                <!--First Slide-->
+                <div class="carousel-item active">
+                    <a href="/blog-detail.html">
+                        <div class="card card__product">
+                            <img class="card-img-top img-cover img-cover-20" src="img/img__building.webp"
+                                alt="Card image cap">
+                            <div class="card-body d-flex flex-column text-left h-auto">
+                                <a href="/blog-detail.html" class="cut-text cut-text-1-line articles__title-link">Fiding
+                                    joy in the
+                                    process
+                                    not the outcome</a>
+                                <div class="d-flex align-items-end">
+                                    <p class="card-text articles__content cut-text cut-text-2-lines">In the
+                                        distance it looked like a blue ribbon stretched across the ocean. Several
+                                        passengers
+                                        kodak'd it. We had no fool ceremonies, no fantastics, no horse play. All that
+                                        sort
+                                        of thing has gone out.</p>
+                                </div>
+                                <a href="/blog-detail.html" class="articles__link">Read more &rarr;</a>
+
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+                <!--/First Slide-->
+
+                <!--Second Slide-->
+                <div class="carousel-item">
+                    <a href="/blog-detail.html">
+                        <div class="card card__product">
+                            <img class="card-img-top img-cover img-cover-20" src="img/img__falling-person.webp"
+                                alt="Card image cap">
+                            <div class="card-body d-flex flex-column text-left h-auto">
+                                <a href="/blog-detail.html"
+                                    class="cut-text cut-text-1-line articles__title-link">Building a brand with
+                                    our values</a>
+                                <div class="d-flex align-items-end">
+                                    <p class="card-text articles__content cut-text cut-text-2-lines">In this world we
+                                        often make mistakes of judgment. We do not as a rule get out of them sound and
+                                        whole, but sometimes we do.</p>
+                                </div>
+                                <a href="/blog-detail.html" class="articles__link">Read more &rarr;</a>
+
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+                <!--/Second Slide-->
+
+                <!--Third Slide-->
+                <div class="carousel-item">
+                    <a href="/blog-detail.html">
+                        <div class="card card__product">
+                            <img class="card-img-top img-cover img-cover-20" src="img/img__moutain.webp"
+                                alt="Card image cap">
+                            <div class="card-body d-flex flex-column text-left h-auto">
+                                <a href="/blog-detail.html"
+                                    class="cut-text cut-text-1-line articles__title-link">Designing a product
+                                    with love</a>
+                                <div class="d-flex align-items-end">
+                                    <p class="card-text articles__content cut-text cut-text-2-lines">Style is a quality;
+                                        the “historic styles” are phases of development. Style is character expressive
+                                        of definite conceptions, as of grandeur, gaiety, or solemnity.</p>
+                                </div>
+                                <a href="/blog-detail.html" class="articles__link">Read more &rarr;</a>
+
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+                <!--/Third Slide-->
+
+                <!-- Fourth Slide -->
+                <div class="carousel-item">
+                    <a href="/blog-detail.html">
+                        <div class="card card__product">
+                            <img class="card-img-top img-cover img-cover-20" src="img/img__leaves.webp"
+                                alt="Card image cap">
+                            <div class="card-body d-flex flex-column text-left h-auto">
+                                <a href="/blog-detail.html"
+                                    class="cut-text cut-text-1-line articles__title-link">Reaching across the
+                                    northern sky</a>
+                                <div class="d-flex align-items-end">
+                                    <p class="card-text cut-text cut-text-2-lines articles__content">About four days out
+                                        from Victoria we plunged into hot weather, and all the male passengers put on
+                                        white linen clothes. One or two days later we crossed the 25th parallel of north
+                                        latitude, and then, by order, the officers of the ship laid away their blue
+                                        uniforms and came out in white linen ones. All the ladies were in white by this
+                                        time. This prevalence of snowy costumes gave the promenade deck an invitingly
+                                        cool, and cheerful and picnicky aspect.</p>
+                                </div>
+                                <a href="/blog-detail.html" class="articles__link">Read more &rarr;</a>
+
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+                <!-- Fourth Slide -->
+
+            </div>
+
+            <!--Control Prev Next-->
+            <a class="carousel-control-prev carousel-control" href="#carouselNewsControl" role="button"
+                data-slide="prev">
+                <i class="fa fa-angle-left carousel__control-icon"></i>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control carousel-control-next" href="#carouselNewsControl" role="button"
+                data-slide="next">
+                <i class="fa fa-angle-right carousel__control-icon"></i>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/Control Prev Next-->
+        </div>
+
+    </section>
+    <!-- /Section News -->
+
+    <!-- Section Quick Look -->
+    <section class="section__look">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-md-6 pad-0-0 full-bg position-relative hidden-md-element"
+                    style="background-image:url('img/img__man-on-chair.webp')">
+                    <a href="#" class="position-absolute pos--bot-right" data-toggle="modal" data-target="#modalInsta">
+                        <i class="fa fa-instagram nav__icon-light"></i>
+                    </a>
+                </div>
+                <div class="modal fade" id="modalInsta" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content modal-content--instaView">
+                            <blockquote class="instagram-media"
+                                data-instgrm-permalink="https://www.instagram.com/p/Bt0dFuQlRqz/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                data-instgrm-version="12"
+                                style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                <div style="padding:16px;"> <a
+                                        href="https://www.instagram.com/p/Bt0dFuQlRqz/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                        style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+                                        target="_blank">
+                                        <div style=" display: flex; flex-direction: row; align-items: center;">
+                                            <div
+                                                style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
+                                            </div>
+                                            <div
+                                                style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                                <div
+                                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
+                                                </div>
+                                                <div
+                                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="padding: 19% 0;"></div>
+                                        <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg
+                                                width="50px" height="50px" viewBox="0 0 60 60" version="1.1"
+                                                xmlns="https://www.w3.org/2000/svg"
+                                                xmlns:xlink="https://www.w3.org/1999/xlink">
+                                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                    <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                                                        <g>
+                                                            <path
+                                                                d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg></div>
+                                        <div style="padding-top: 8px;">
+                                            <div
+                                                style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
+                                                Xem bài viết này trên Instagram</div>
+                                        </div>
+                                        <div style="padding: 12.5% 0;"></div>
+                                        <div
+                                            style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                                            <div>
+                                                <div
+                                                    style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
+                                                </div>
+                                                <div
+                                                    style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
+                                                </div>
+                                                <div
+                                                    style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
+                                                </div>
+                                            </div>
+                                            <div style="margin-left: 8px;">
+                                                <div
+                                                    style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
+                                                </div>
+                                                <div
+                                                    style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
+                                                </div>
+                                            </div>
+                                            <div style="margin-left: auto;">
+                                                <div
+                                                    style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
+                                                </div>
+                                                <div
+                                                    style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
+                                                </div>
+                                                <div
+                                                    style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+                                            <div
+                                                style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;">
+                                            </div>
+                                            <div
+                                                style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <p
+                                        style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                        <a href="https://www.instagram.com/p/Bt0dFuQlRqz/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                            style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                            target="_blank">Bài viết do L&#39;Estrange London (@lestrangelondon) chia
+                                            sẻ</a> vào <time
+                                            style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                                            datetime="2019-02-13T11:03:41+00:00">Thg 2 13, 2019 lúc 3:03am PST</time>
+                                    </p>
+                                </div>
+                            </blockquote>
+                            <script async src="//www.instagram.com/embed.js"></script>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 pad-0-0">
+
+                    <div class="card__hightlight">
+                        <p class="text-center heading--sm">Shop the look</p>
+                        <div class="container-fluid">
+                            <div class="row d-flex justify-content-center w-100 mar-0-0">
+                                <a href="/detail.html">
+                                    <div class="card card__product">
+                                        <div class="card__product-content">
+                                            <img class="card-img-top card__product-img--sm card__product-img--front"
+                                                src="img/img__product-5-front.webp" alt="Card image cap">
+                                            <img class="card-img-top card__product-img--sm card__product-img--back"
+                                                src="img/img__product-5-back.webp" alt="Card image cap">
+                                            <a href="#" data-toggle="modal" data-target="#modalQuickview">
+                                                <div class="card__product-quickview">
+                                                    Quick view
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="card-body d-flex flex-column">
+                                            <p class="card-text">Curve Swearshirt</p>
+                                            <div class="d-flex flex-row justify-content-center">
+                                                <p class="card-text card-text-price">$119.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Section Quick Look -->
+
+    <!-- Section Instagram Picture -->
+    <section class="section__insta">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-md-6 pad-0-0 h-100 d-flex flex-row">
+                    <div class="col-6 pad-0-0 h-100">
+                        <a href="#">
+                            <img src="img/img__insta-1.jpg" alt="" class="img-cover img-cover-40">
+                        </a>
+
+                    </div>
+                    <div class="col-6 pad-0-0 h-100">
+                        <a href="#">
+                            <img src="img/img__insta-2.jpg" alt="" class="img-cover img-cover-40">
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-6 pad-0-0 h-100 d-flex flex-row">
+                    <div class="col-6 pad-0-0 h-100">
+                        <a href="#">
+                            <img src="img/img__insta-3.jpg" alt="" class="img-cover img-cover-40">
+                        </a>
+
+                    </div>
+                    <div class="col-6 pad-0-0 h-100">
+                        <a href="#">
+                            <img src="img/img__insta-4.jpg" alt="" class="img-cover img-cover-40">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Section Instagram Picture -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-fluidd">
+            <div class="d-flex justify-content-between row-to-col">
+                <a href="#">
+                    <img src="//cdn.shopify.com/s/files/1/0082/5494/7392/files/logo-BOLD--white_130x@2x.png?v=1556139303"
+                        alt="" class="nav__logo w-auto">
+                </a>
+                <div class="nav__icon nav__icon-light nav__icon-footer">
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                        <div class="ripple-container"></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="d-flex mar-2-2">
+
+                <div class="row w-100">
+                    <a href="#">
+                        <i class="fa fa-copyright"></i> Broadcast Mordern 2019
+                    </a>
+                    <a href="#">Power by Shopify</a>
+
+                    <a href="#">Invisibles Theme</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+        crossorigin="anonymous"></script>      
+    <script src="js/all.js"></script> 
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/jquery.paroller.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

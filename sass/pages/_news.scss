@@ -1,0 +1,29 @@
+.feature {
+  &__news {
+    height: 100vh;
+    width: 100%;
+    background-color: $color-grey-3;
+  }
+  &__heading{
+      font-size: 1.2rem;
+      font-weight: 100;
+      letter-spacing: 2px;
+  }
+  &__articles{
+      padding: 10rem 10rem;
+  }
+}
+.heading__img{
+  margin-bottom: 4rem;
+  height: 30rem;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+} 
+
+.section__blog-content{
+  padding: 3rem 2rem;
+}
+.category__selector{
+  height: 5rem;
+}

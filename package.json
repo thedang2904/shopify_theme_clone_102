@@ -1,0 +1,17 @@
+{
+  "name": "shopify_theme-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery-zoom": "^1.7.21",
+    "node-sass": "^4.12.0",
+    "sass-node": "^4.11.2"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "devDependencies": {},
+  "author": "thedang",
+  "license": "ISC"
+}

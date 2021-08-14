@@ -1,0 +1,57 @@
+
+@import "abstracts/variation";
+@import "abstracts/mixins";
+
+@import "base/base";
+@import "base/typhography";
+@import "base/utilities";
+
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/navigation";
+@import "layouts/color-layouts";
+@import "layouts/modal";
+@import "layouts/breadcrumb";
+
+@import "components/list-group";
+@import "components/button";
+@import "components/card";
+@import "components/rating";
+@import "components/carousel";
+@import "components/badge";
+@import "components/select";
+@import "components/form";
+@import "components/tab";
+@import "components/quantity";
+@import "components/color-selector";
+@import "components/dropdown";
+
+@import "pages/home";
+@import "pages/news";
+@import "pages/cart";
+
+.jumbotron{
+    margin: 0 0 !important;
+}
+.user__avatar{
+    flex-shrink: 0;
+    margin-right: 2rem;
+    margin-top: 0.7rem;
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    background-size: cover;
+}
+.like-section{
+    a{
+        color: $color-grey-1;
+        font-size: 1.4rem;
+        margin: 0 .5rem;
+        &:hover{
+            color: $color-blue-1;
+        }
+    }
+}

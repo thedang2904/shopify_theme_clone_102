@@ -1,0 +1,28 @@
+.breadcrumb {
+  margin: 2rem 2rem;
+  background-color: transparent;
+  &-item {
+    font-size: 1.5rem;
+    font-weight: 200;
+    a {
+      color: $color-primary-dark;
+      &:hover {
+        text-decoration: none;
+        color: $color-blue-1;
+      }
+    }
+    &::before {
+      display: none;
+    }
+  }
+  &-item + &-item::before {  
+    content: "";
+  }
+  &-icon{
+    font-size: 2rem;  
+    margin: 0 2rem;
+    display: flex;
+    align-items: center;
+    color: $color-primary-dark;
+  }
+}
